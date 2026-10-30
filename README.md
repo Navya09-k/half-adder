@@ -1,2 +1,6 @@
-# half-adder
-give me description in300 characters A Half Adder is a basic digital logic circuit that performs the addition of two binary bits. This Python program uses XOR and AND operations to calculate the Sum and Carry outputs. It demonstrates the fundamental concept of binary addition in digital electronics.
+a = int(input("Enter first bit (0 or 1): "))
+b = int(input("Enter second bit (0 or 1): "))
+sum_bit = a ^ b
+carry = a & b
+print("Sum =", sum_bit)
+print("Carry =", carry)
